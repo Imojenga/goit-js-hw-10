@@ -9,6 +9,7 @@ const minutes = document.querySelector('span[data-minutes]');
 const seconds = document.querySelector('span[data-seconds]');
 
 let userSelectedDate = null;
+datePickBtn.disabled = true;
 
 const options = {
   enableTime: true,
